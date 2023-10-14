@@ -1,0 +1,57 @@
+Najpopopularniejsze:
+- JavaScript
+- Java
+- Python
+- Kotlin
+- C#
+- PHP
+- C++
+- TypeScript (JavaScript z typami)
+- Swift (iOS) - mało go na rynku, ale jest bardzo dobrze płatny
+- Go (Google)
+- Ruby (Ruby on Rails)
+- C (niskopoziomowy)
+......
+
+Podział na backend i frontend:
+- backend - serwer, baza danych, logika biznesowa
+- frontend - aplikacja webowa, aplikacja mobilna, aplikacja desktopowa
+
+Świat Javy:
+- Java - język programowania (inaczej Java SE - Standard Edition)
+- Java EE - Enterprise Edition - rozszerzenie Javy o biblioteki do tworzenia aplikacji webowych
+- Spring - framework do tworzenia aplikacji webowych w Javie - alternatywa do Javy EE
+- bazy danych - np. Oracle, MySQL, Microsoft SQL Server, PostgreSQL, MongoDB, Redis, Cassandra, Neo4j, Elasticsearch, DynamoDB, Firebase
+- serwery aplikacji - np. Tomcat, Jetty, Wildfly, Glassfish, Weblogic, Websphere, Ngix
+
+Java EE:
+- Servlety - obsługa żądań HTTP
+- JSP - Java Server Pages - generowanie HTML-a - dodatek frontendowy do Javy EE
+- JSTL - Java Standard Tag Library - biblioteka tagów do JSP
+- JDBC - Java Database Connectivity - obsługa baz danych
+- JSF - Java Server Faces - framework do tworzenia aplikacji webowych - dodatek frontendowy do Javy EE
+
+Frontend:
+- HTML - HyperText Markup Language - język znaczników do tworzenia stron internetowych
+- CSS - Cascading Style Sheets - język do stylowania stron internetowych
+- JavaScript - język programowania do tworzenia stron internetowych
+- TypeScript - JavaScript z typami
+- Angular - framework do tworzenia aplikacji webowych w JavaScript/TypeScript
+- React - framework do tworzenia aplikacji webowych w JavaScript/TypeScript
+- Vue - framework do tworzenia aplikacji webowych w JavaScript/TypeScript
+
+Backend JavaScipt:
+- Node.js - środowisko uruchomieniowe JavaScript
+
+Co jeszcze do nauki:
+ - pisanie 10 palcami
+ - Intellij - wykorzystanie, skróty klawiaturowe
+ - GIT - system kontroli wersji - kilka dni w trakcie kursu
+ - GitHub - serwis do przechowywania kodu źródłowego - na bieżąco w trakcie kursu
+ - Docker - narzędzie do wirtualizacji - 1 - 2 dni w trakcie kursu
+ - Linux - system operacyjny - podstawowe polecenia - bo Docker działa na Linuxie - 1 - 2 dni w trakcie kursu
+ - SQL - język do obsługi baz danych
+ - REST - architektura aplikacji webowych - kilka godzin na przeczytanie, i na zrozumienie
+ - HTTP - protokół komunikacji w internecie - kilka godzin na przeczytanie, i na zrozumienie
+ - JSON - format wymiany danych - będzie używany w trakcie
+ - YAML - format wymiany danych - będzie używany w trakcie
