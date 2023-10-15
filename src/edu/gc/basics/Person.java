@@ -10,7 +10,7 @@ public class Person {
     private String name;
     protected String surname;
     public int age;
-    String gender;
+    String gender; // domyślnie jest pakietową, czyli dostępną tylko w pakiecie
     // konstruktor domyślny - jeśli nie ma żadnego konstruktora, to kompilator automatycznie go dodaje
     //czasami jest wymagane dodanie go nawet jeśli są inne konstruktory bo wymaga tego jakaś biblioteka
     public Person() {

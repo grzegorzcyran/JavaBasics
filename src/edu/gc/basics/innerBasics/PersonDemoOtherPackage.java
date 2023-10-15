@@ -1,6 +1,9 @@
-package edu.gc.basics;
+package edu.gc.basics.innerBasics;
 
-public class PersonDemo {
+//ponieważ klasa Person jest w innym pakiecie niż PersonDemoOtherPackage, to musimy ją zaimportować
+import edu.gc.basics.Person;
+
+public class PersonDemoOtherPackage {
     public static void main(String[] args) {
         Person person = new Person(); // tworzymy obiekt klasy Person za pomocą konstruktora domyślnego
         person.setName("Zosia");
@@ -14,11 +17,11 @@ public class PersonDemo {
         System.out.println("person1: " + person1.getName() + " " + person1.getSurname() + " " + person1.getAge() + " " + person1.getGender());
 
         System.out.println("+==================================+");
-        Person person2 = new Person(); // tworzymy obiekt klasy Person
-        person2.gender = "M";
-        person2.setName("Zbigniew"); //name jest private więc nie można się do niego dostać bezpośrednio, trzeba przez metodę
-        person2.surname = "Nowak";
-        person2.age = 30;
-        System.out.println("person2: " + person2.getName() + " " + person2.surname + " " + person2.age + " " + person2.gender);
+        Person person2 = new Person();
+        person2.age = 25;
+        person2.setName("Walenty");
+        person2.setGender("M"); //inny pakiet więc nie ma dostępu bezpośrednio do pola
+        person2.setSurname("Nowak");
+        System.out.println("person2: " + person2.getName() + " " + person2.getSurname() + " " + person2.age + " " + person2.getGender());
     }
 }
