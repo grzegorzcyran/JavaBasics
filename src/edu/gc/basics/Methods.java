@@ -44,7 +44,19 @@ public class Methods {
         int result = add(a, b); // wywołanie metody add, przekazanie do niej argumentów a i b, zapisanie wyniku w zmiennej result
         print("Wynik dodawania: " + result); // wywołanie metody print, przekazanie do niej argumentu "Wynik dodawania: " + result
 
+        print("Wynik mnożenia: " + multiply(6,8)); // wywołanie metody print, przekazanie do niej wyniku metody multiply
+
         // metoda main też nic nie zwraca, dlatego jest void
+    }
+
+    // metoda która nie przyjmuje żadnych argumentów i nic nie zwraca
+    private static void printHelloWorld() {
+        System.out.println("Hello world!");
+    }
+
+    // metoda która nie przyjmuje żadnych argumentów i zwraca String
+    private static String getHelloWorld() {
+        return "Hello world!";
     }
 
 }
